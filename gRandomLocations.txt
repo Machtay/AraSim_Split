@@ -1,0 +1,89 @@
+AraSim.cc:119:    cout<<"first random : "<<gRandom->Rndm()<<"\n";
+EarthModel.cc:1054:	if (gRandom->Rndm()>weight1_tmp) { 
+EarthModel.cc:1413:	if (gRandom->Rndm()>weight1_tmp) { 
+EarthModel.cc:1789:	if (gRandom->Rndm()>weight1_tmp) { 
+IceModel.cc:300://     thisphi=gRandom->Rndm()*(maxphi-minphi)+minphi;
+IceModel.cc:301://     thiscos=gRandom->Rndm()*(maxcos-mincos)+mincos;
+IceModel.cc:468:// 	interaction1->posnu=interaction1->pathlength_inice*gRandom->Rndm()*interaction1->nnu;
+Primaries.cc:424:  gRandom->RndmArray(2,rndlist);
+Primaries.cc:443:  gRandom->RndmArray(2,rndlist);
+Primaries.cc:473:  gRandom->RndmArray(2,rndlist);
+Primaries.cc:495:  gRandom->RndmArray(2,rndlist);
+Primaries.cc:544:  	rnd = gRandom->Rndm(1); // (0,1)
+Primaries.cc:637:  double rnd=gRandom->Rndm();
+Primaries.cc:648:    double rnd=gRandom->Rndm();
+Primaries.cc:668:  double rnd=gRandom->Rndm();
+Primaries.cc:691:  double rnd=gRandom->Rndm();
+Primaries.cc:722:    double rnd = gRandom->Rndm();
+Primaries.cc:754:    double rnd = gRandom->Rndm();
+Primaries.cc:1163:            double xrndm = gRandom->Rndm();
+Primaries.cc:1177:            double ptaurndm= gRandom->Rndm();
+Primaries.cc:1703:    thisphi=gRandom->Rndm()*(maxphi-minphi)+minphi;
+Primaries.cc:1704:    thiscos=gRandom->Rndm()*(maxcos-mincos)+mincos;
+Primaries.cc:1894:	posnu=pathlength_inice*gRandom->Rndm()*nnu;
+Primaries.cc:1946:    //thisphi=gRandom->Rndm()*(maxphi-minphi)+minphi;
+Primaries.cc:1951:    double thisPhi = gRandom->Rndm() * (2*PI);
+Primaries.cc:1952:    //double thisR = gRandom->Rndm() * (range);
+Primaries.cc:1953:    double thisR = pow( gRandom->Rndm(), 0.5 ) * (range);   // for uniform distribution
+Primaries.cc:2076:    //thisphi=gRandom->Rndm()*(maxphi-minphi)+minphi;
+Primaries.cc:2081:    double thisPhi = gRandom->Rndm() * (2*PI);
+Primaries.cc:2082:    //double thisR = gRandom->Rndm() * (range);
+Primaries.cc:2083:    double thisR = pow( gRandom->Rndm(), 0.5 ) * (range);   // for uniform distribution
+Primaries.cc:2091:    rndX = (2.*gRandom->Rndm() -1.) * range;  // [-range:range]
+Primaries.cc:2092:    rndY = (2.*gRandom->Rndm() -1.) * range;
+Primaries.cc:2231:    //thisphi=gRandom->Rndm()*(maxphi-minphi)+minphi;
+Primaries.cc:2236:    double thisPhi = gRandom->Rndm() * (2*PI);
+Primaries.cc:2237:    //double thisR = gRandom->Rndm() * (range);
+Primaries.cc:2238:    double thisR = pow( gRandom->Rndm(), 0.5 ) * (range);   // for uniform distribution
+Primaries.cc:2354:    //thisphi=gRandom->Rndm()*(maxphi-minphi)+minphi;
+Primaries.cc:2359:    //double thisR = gRandom->Rndm() * (range);
+Primaries.cc:2504:    //thisphi=gRandom->Rndm()*(maxphi-minphi)+minphi;
+Primaries.cc:2509:    //double thisR = gRandom->Rndm() * (range);
+Primaries.cc:3176:    posnu.SetR( gRandom->Rndm() * antarctica->IceThickness(posnu.Lon(), posnu.Lat()) + (antarctica->Surface(posnu.Lon(), posnu.Lat()) - antarctica->IceThickness(posnu.Lon(), posnu.Lat()) ) );
+Primaries.cc:3181:    posnu.SetR( gRandom->Rndm() * height + antarctica->Surface(posnu.Lon(), posnu.Lat()) );
+Primaries.cc:3188:    posnu.SetR( antarctica->Surface(posnu.Lon(), posnu.Lat()) - (gRandom->Rndm() * max_depth) );
+Primaries.cc:3201:  gRandom->RndmArray(2,rndlist);
+Primaries.cc:3313:  double rndratio = gRandom->Rndm() * ratio;
+Primaries.cc:3489:  double R1=gRandom->Rndm();
+Primaries.cc:3504:	double R2=gRandom->Rndm();//  double R2=Rand3Y.Rndm();
+Report.cc:367:  RandomTshift = gRandom->Rndm(); // EVERYONE LOOK HERE 2/10/21
+Report.cc:2141:		noise_ID[l] = (int)(settings1->NOISE_EVENTS * gRandom->Rndm() );
+Report.cc:2165:	      noise_ID[l] = (int)(settings1->NOISE_EVENTS * gRandom->Rndm() );
+Report.cc:2172:	      noise_ID[l] = (int)(settings1->NOISE_EVENTS * gRandom->Rndm() );
+Report.cc:5642:    noise_phase.push_back(2*PI*gRandom->Rndm());  // get random phase for flat thermal noise
+secondaries.cc:603:      rnd1=gRandom->Rndm();
+secondaries.cc:618:	rnd1=gRandom->Rndm();
+secondaries.cc:622:	rnd1=gRandom->Rndm();
+secondaries.cc:626:	rnd1=gRandom->Rndm();
+secondaries.cc:651:      rnd1=gRandom->Rndm();
+secondaries.cc:664:	rnd1=gRandom->Rndm();
+secondaries.cc:668:	rnd1=gRandom->Rndm();
+secondaries.cc:672:	rnd1=gRandom->Rndm();
+secondaries.cc:690:      rnd1=gRandom->Rndm();
+secondaries.cc:703:	rnd1=gRandom->Rndm();
+secondaries.cc:707:	rnd1=gRandom->Rndm();
+secondaries.cc:711:	rnd1=gRandom->Rndm();
+secondaries.cc:760:      rnd1=gRandom->Rndm();
+secondaries.cc:775:	rnd1=gRandom->Rndm();
+secondaries.cc:779:	rnd1=gRandom->Rndm();
+secondaries.cc:783:	rnd1=gRandom->Rndm();
+secondaries.cc:808:      rnd1=gRandom->Rndm();
+secondaries.cc:821:	rnd1=gRandom->Rndm();
+secondaries.cc:825:	rnd1=gRandom->Rndm();
+secondaries.cc:829:	rnd1=gRandom->Rndm();
+secondaries.cc:849:      rnd1=gRandom->Rndm();
+secondaries.cc:862:	rnd1=gRandom->Rndm();
+secondaries.cc:866:	rnd1=gRandom->Rndm();
+secondaries.cc:870:	rnd1=gRandom->Rndm();
+secondaries.cc:1120:  double rnd = gRandom->Rndm();
+secondaries.cc:1136:    double rnd=gRandom->Rndm();
+secondaries.cc:1154:  double rnd = gRandom->Rndm();
+secondaries.cc:1197://     r2=gRandom->Rndm()*chord;
+secondaries.cc:1200://       r1=gRandom->Rndm();
+secondaries.cc:1201://       r2=gRandom->Rndm()*chord;
+signal.cc:1043:        //test_signal_Tinit += gRandom->Rndm() * test_dT;
+signal.cc:1199:            //test_signal_Tinit += gRandom->Rndm() * test_dT;
+signal.cc:1357:            //test_signal_Tinit += gRandom->Rndm() * test_dT;
+signal.cc:1599:    //test_signal_Tinit += gRandom->Rndm() * test_dT;
+Tools.cc:665:    double rand_uni_a = gRandom->Rndm(); //gRandom->Rndm() produces uniformly-distributed floating points in ]0,1]
+Tools.cc:666:    double rand_uni_b = gRandom->Rndm();
